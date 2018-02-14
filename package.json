@@ -7,14 +7,18 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "start": "serve .",
     "precommit": "prettier --write **.*{css,js,json,md}"
   },
   "dependencies": {
-    "jquery": "^3.3.1",
-    "slick-carousel": "^1.8.1"
+    "bootstrap": "4.0.0",
+    "jquery": "3.3.1",
+    "popper.js": "1.12.9",
+    "slick-carousel": "1.8.1"
   },
   "devDependencies": {
-    "husky": "^0.14.3",
-    "prettier": "1.10.2"
+    "husky": "0.14.3",
+    "prettier": "1.10.2",
+    "serve": "6.4.9"
   }
 }
