@@ -1,6 +1,8 @@
 $(document).ready(function() {
   $(".up-content-row > section").slick({
-    slidesToShow: 3,
-    slidesToScroll: 1
+    infinite: true,
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    arrows: true
   });
 });
