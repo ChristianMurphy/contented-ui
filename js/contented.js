@@ -6,14 +6,14 @@ $(document).ready(function() {
     arrows: true,
     responsive: [
       {
-        breakpoint: 1000,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 4
         }
       },
       {
-        breakpoint: 800,
+        breakpoint: 1000,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3
