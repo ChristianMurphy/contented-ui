@@ -4,22 +4,36 @@
     <title>
       uPortal Next - Contented UI
     </title>
+    <!-- dependencies from NPM -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css"/>
     <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick-theme.css"/>
-    <link rel="stylesheet" href="css/contented.css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <script defer src="node_modules/jquery/dist/jquery.min.js"></script>
     <script defer src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script defer src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script defer src="node_modules/slick-carousel/slick/slick.min.js"></script>
+
+    <!-- dependencies only availible through cdn -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+
+    <!-- custom code for UI -->
+    <link rel="stylesheet" href="css/contented.css"/>
     <script defer src="js/contented.js"></script>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand mr-auto" href="#">
           uPortal Next
+        </a>
+        <span class="badge badge-danger mr-2">
+          <i class="fas fa-bell"></i>
+          10
+        </span>
+        <a href="#" class="navbar-text">
+          Sign In
+          <i class="fas fa-sign-in-alt"></i>
         </a>
       </nav>
     </header>
