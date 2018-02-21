@@ -1,4 +1,46 @@
 img {
-  padding: 1%;
   width: 98%;
+  padding: 1%;
+}
+
+.up-portlet--tagline {
+  position: absolute;
+  bottom: 0;
+  width: inherit;
+
+  color: white;
+  text-shadow: 0 0 3px black;
+}
+
+.up-portlet--tagline--background {
+  width: 96%;
+  margin: 1%;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+section,
+header {
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  margin-left: 2px;
+  margin-bottom: 0;
+}
+
+section:first-child h2 {
+  margin-top: 5px;
+}
+
+section:not(:first-child) h2 {
+  margin-top: 20px;
+}
+
+h3 {
+  margin: 0;
+}
+
+strong {
+  margin: 0;
 }
