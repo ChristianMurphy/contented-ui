@@ -1,6 +1,6 @@
 img {
-  width: 98%;
-  padding: 1%;
+  width: 99.5%;
+  padding: 0.25%;
 }
 
 .up-portlet--tagline {
@@ -13,8 +13,8 @@ img {
 }
 
 .up-portlet--tagline--background {
-  width: 96%;
-  margin: 1%;
+  width: 99%;
+  margin: 0.25%;
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.4);
 }
@@ -25,7 +25,7 @@ header {
 }
 
 h2 {
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left: 2px;
   margin-bottom: 0;
 }
