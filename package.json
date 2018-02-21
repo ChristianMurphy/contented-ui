@@ -9,7 +9,8 @@
   "scripts": {
     "start": "serve .",
     "precommit": "prettier --write **.*{css,js,json,md}",
-    "gh-pages": "git branch -D gh-pages && git checkout -b gh-pages && rm .gitignore && yarn --production && git add --all && git commit --no-verify -m 'chore: gh-pages' && git push origin gh-pages -f && git checkout master && yarn"
+    "gh-pages":
+      "git branch -D gh-pages && git checkout -b gh-pages && rm .gitignore && yarn --production && git add --all && git commit --no-verify -m 'chore: gh-pages' && git push origin gh-pages -f && git checkout master && yarn"
   },
   "dependencies": {
     "bootstrap": "4.0.0",
