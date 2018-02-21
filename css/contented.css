@@ -1,4 +1,23 @@
-img {
+section,
+header {
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  margin-top: 15px;
+  margin-left: 2px;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+strong {
+  margin: 0;
+}
+
+.up-portlet img {
   width: 99.5%;
   padding: 0.25%;
 }
@@ -19,21 +38,23 @@ img {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-section,
-header {
-  font-family: 'Lato', sans-serif;
+.up-hero {
+  position: relative;
+  width: 100%;
 }
 
-h2 {
-  margin-top: 15px;
-  margin-left: 2px;
-  margin-bottom: 0;
+.up-hero img {
+  width: 100%;
 }
 
-h3 {
-  margin: 0;
-}
-
-strong {
-  margin: 0;
+.up-hero--text {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  padding: 20px;
+  margin: 0 auto;
+  width: 50%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 5px black;
 }
