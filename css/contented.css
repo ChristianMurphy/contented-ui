@@ -4,7 +4,8 @@ header {
 }
 
 .up-content-row h2 {
-  margin-top: 15px;
+  font-size: 1.5rem;
+  margin-top: 30px;
   margin-left: 20px;
   margin-bottom: 0;
 }
@@ -20,6 +21,15 @@ strong {
 .up-portlet img {
   width: 99.5%;
   padding: 0.25%;
+}
+
+.up-portlet {
+  will-change: transform;
+  transition: transform 1s;
+}
+
+.up-portlet:hover {
+  transform: scale(1.02);
 }
 
 .up-portlet--tagline {
