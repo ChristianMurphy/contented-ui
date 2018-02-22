@@ -54,13 +54,30 @@ strong {
   top: 20px;
 
   width: 50%;
-  min-width: 640px;
+  min-width: 620px;
+  max-height: 100%;
   margin: 0 auto;
   padding: 20px;
 
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 5px black;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .up-hero--text {
+    top: 0;
+  }
+}
+
+@media (max-width: 620px) {
+  .up-hero--text {
+    min-width: 100%;
+  }
 }
 
 .slick-slider {
