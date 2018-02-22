@@ -99,3 +99,7 @@ strong {
 .slick-next:before {
   color: black;
 }
+
+footer {
+  margin-top: 40px;
+}
