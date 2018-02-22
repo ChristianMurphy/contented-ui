@@ -40,6 +40,7 @@ strong {
 
 .up-hero {
   position: relative;
+  margin-top: 56px;
   width: 100%;
 }
 
@@ -49,11 +50,14 @@ strong {
 
 .up-hero--text {
   position: absolute;
-  bottom: 50%;
   left: 0;
-  padding: 20px;
-  margin: 0 auto;
+  top: 20px;
+
   width: 50%;
+  min-width: 640px;
+  margin: 0 auto;
+  padding: 20px;
+
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 5px black;
