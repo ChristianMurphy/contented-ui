@@ -3,9 +3,9 @@ header {
   font-family: "Lato", sans-serif;
 }
 
-h2 {
+.up-content-row h2 {
   margin-top: 15px;
-  margin-left: 2px;
+  margin-left: 20px;
   margin-bottom: 0;
 }
 
@@ -61,4 +61,14 @@ strong {
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 5px black;
+}
+
+.slick-slider {
+  width: calc(100% - 40px);
+  margin: 0 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
 }
