@@ -105,3 +105,45 @@ strong {
 footer {
   margin-top: 40px;
 }
+
+.up-spin-slow {
+  animation-duration: 120s;
+}
+
+.up-weather-marks {
+  width: 100%;
+  margin-top: -5px;
+}
+
+.up-weather-mark {
+  display: inline-block;
+  width: calc(100% / 13);
+  height: 50%;
+  border-left: 1px solid gray;
+}
+
+.up-weather-mark.even {
+  height: 5px;
+  margin-bottom: 2px;
+}
+
+.up-weather-mark.odd {
+  height: 7px;
+}
+
+.up-weather-mark:last-child {
+  width: 0;
+}
+
+.up-weather-labels {
+  width: 100%;
+  overflow: hidden;
+}
+
+.up-weather-label {
+  text-align: center;
+  display: inline-block;
+  /* not sure why 96% is a magic number, 100% breaks */
+  width: calc(96% / 6);
+  padding-left: 1.5%;
+}
