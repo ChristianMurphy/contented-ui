@@ -106,11 +106,8 @@ footer {
   margin-top: 40px;
 }
 
-.up-hero-portlet {
-  margin-top: 80px;
-}
-
 .up-spin-slow {
+  color: #fbc02d;
   animation-duration: 120s;
 }
 
@@ -122,7 +119,6 @@ footer {
 .up-weather-mark {
   display: inline-block;
   width: calc(100% / 13);
-  height: 50%;
   border-left: 1px solid gray;
 }
 
@@ -162,53 +158,63 @@ footer {
   content: "";
   position: absolute;
   width: 10px;
-  background: black;
+  background: linear-gradient(to bottom, #000b 0%, #000b 80%, #0000 100%);
   top: 0;
   bottom: 0;
   left: 10px;
   margin-left: -3px;
 }
 
-.up-timeline-item {
+.up-timeline-header,
+.up-timeline-item,
+.up-timeline-footer {
   padding: 10px 0 10px 40px;
   position: relative;
-  background-color: inherit;
+}
+
+.up-timeline-header {
+  text-decoration: underline;
+}
+
+.up-timeline-footer {
+  padding-top: 0;
 }
 
 .up-timeline-item::after {
-  text-align: center;
+  position: absolute;
+  top: 15px;
+  left: -5px;
+  height: 35px;
+  width: 35px;
+  z-index: 1;
+
   font-family: "Font Awesome 5 Free";
   border: 4px solid black;
   font-weight: 900;
-  position: absolute;
-  width: 35px;
-  height: 35px;
-  left: -5px;
+  text-align: center;
   background-color: white;
-  top: 15px;
   border-radius: 50%;
-  z-index: 1;
 }
 
-.up-timeline-item:nth-child(1)::after {
+.up-timeline-item:nth-child(2)::after {
   content: "\f2f2";
   border-color: #ef6c00;
   color: #ef6c00;
 }
 
-.up-timeline-item:nth-child(2)::after {
+.up-timeline-item:nth-child(3)::after {
   content: "\f207";
   border-color: #0277bd;
   color: #0277bd;
 }
 
-.up-timeline-item:nth-child(3)::after {
+.up-timeline-item:nth-child(4)::after {
   content: "\f0c3";
   border-color: #2e7d32;
   color: #2e7d32;
 }
 
-.up-timeline-item:nth-child(4)::after {
+.up-timeline-item:nth-child(5)::after {
   content: "\f2e7";
   border-color: #ad1457;
   color: #ad1457;
