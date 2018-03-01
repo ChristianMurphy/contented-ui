@@ -113,6 +113,8 @@ footer {
 
 .up-weather-marks {
   width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
   margin-top: -5px;
 }
 
@@ -218,4 +220,17 @@ footer {
   content: "\f02d";
   border-color: #6a1b9a;
   color: #6a1b9a;
+}
+
+.up-weather-hilos {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.up-weather-hilo {
+  background-color: unset;
+}
+
+.up-weather-hilo--progress {
+  border-radius: 10px;
 }
