@@ -197,25 +197,25 @@ footer {
 }
 
 .up-timeline-item:nth-child(2)::after {
-  content: "\f2f2";
-  border-color: #ef6c00;
-  color: #ef6c00;
-}
-
-.up-timeline-item:nth-child(3)::after {
   content: "\f207";
   border-color: #0277bd;
   color: #0277bd;
 }
 
-.up-timeline-item:nth-child(4)::after {
+.up-timeline-item:nth-child(3)::after {
   content: "\f0c3";
   border-color: #2e7d32;
   color: #2e7d32;
 }
 
-.up-timeline-item:nth-child(5)::after {
+.up-timeline-item:nth-child(4)::after {
   content: "\f2e7";
   border-color: #ad1457;
   color: #ad1457;
+}
+
+.up-timeline-item:nth-child(5)::after {
+  content: "\f02d";
+  border-color: #6a1b9a;
+  color: #6a1b9a;
 }
