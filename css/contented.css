@@ -182,6 +182,11 @@ footer {
   padding-top: 0;
 }
 
+.up-timeline-item:hover,
+.up-weather-hilos .row:hover {
+  background-color: #00000006;
+}
+
 .up-timeline-item::after {
   position: absolute;
   top: 15px;
