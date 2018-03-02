@@ -31,7 +31,7 @@ strong {
 }
 
 .up-portlet:hover {
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 
 .up-portlet--tagline {
@@ -156,7 +156,7 @@ footer {
   margin: 0 auto;
 }
 
-.up-timeline::after {
+.up-timeline::before {
   content: "";
   position: absolute;
   width: 10px;
@@ -174,7 +174,8 @@ footer {
   position: relative;
 }
 
-.up-timeline-header {
+.up-timeline-header,
+.up-task--header {
   text-decoration: underline;
 }
 
@@ -183,45 +184,43 @@ footer {
 }
 
 .up-timeline-item:hover,
-.up-weather-hilos .row:hover {
+.up-weather-hilos .row:hover,
+.up-task--item:hover {
   background-color: #00000006;
 }
 
-.up-timeline-item::after {
+.up-timeline-item::before {
   position: absolute;
-  top: 15px;
-  left: -5px;
-  height: 35px;
-  width: 35px;
+  top: 20px;
+  left: -3px;
+  height: 30px;
+  width: 30px;
   z-index: 1;
 
-  font-family: "Font Awesome 5 Free";
-  border: 4px solid black;
-  font-weight: 900;
-  text-align: center;
+  border: 2px solid black;
   background-color: white;
   border-radius: 50%;
 }
 
-.up-timeline-item:nth-child(2)::after {
+.up-timeline-item:nth-child(2)::before {
   content: "\f207";
   border-color: #0277bd;
   color: #0277bd;
 }
 
-.up-timeline-item:nth-child(3)::after {
+.up-timeline-item:nth-child(3)::before {
   content: "\f0c3";
   border-color: #2e7d32;
   color: #2e7d32;
 }
 
-.up-timeline-item:nth-child(4)::after {
+.up-timeline-item:nth-child(4)::before {
   content: "\f2e7";
   border-color: #ad1457;
   color: #ad1457;
 }
 
-.up-timeline-item:nth-child(5)::after {
+.up-timeline-item:nth-child(5)::before {
   content: "\f02d";
   border-color: #6a1b9a;
   color: #6a1b9a;
@@ -238,4 +237,54 @@ footer {
 
 .up-weather-hilo--progress {
   border-radius: 10px;
+}
+
+.up-task--header {
+  padding-top: 10px;
+  margin-bottom: 25px;
+}
+
+.up-task--list {
+  list-style: none;
+  margin-left: -10px;
+}
+
+.up-timeline-item::before,
+.up-task--item::before {
+  font-family: "Font Awesome 5 Free";
+  text-align: center;
+  content: "";
+}
+
+.up-timeline-item::before {
+  font-weight: 900;
+}
+
+.up-task--item::before {
+  font-weight: 400;
+  margin: 0px 5px 0 -31px;
+}
+
+.up-task--item {
+  font-size: 1.6rem;
+}
+
+.up-task--item.up-in-progress::before {
+  color: #0277bd;
+  content: "\f35a";
+}
+
+.up-task--item.up-todo::before {
+  color: #6a1b9a;
+  content: "\f111";
+}
+
+.up-task--item.up-done::before {
+  color: #2e7d32;
+  content: "\f058";
+}
+
+.up-task--item.up-over-due::before {
+  color: #ad1457;
+  content: "\f057";
 }
