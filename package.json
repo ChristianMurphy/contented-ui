@@ -12,14 +12,14 @@
     "gh-pages": "git branch -D gh-pages && git checkout -b gh-pages && rm .gitignore && yarn --production && git add --all && git commit --no-verify -m 'chore: gh-pages' && git push origin gh-pages -f && git checkout master && yarn"
   },
   "dependencies": {
-    "bootstrap": "4.0.0",
+    "bootstrap": "4.1.1",
     "jquery": "3.3.1",
-    "popper.js": "1.12.9",
+    "popper.js": "1.14.3",
     "slick-carousel": "1.8.1"
   },
   "devDependencies": {
     "husky": "0.14.3",
-    "prettier": "1.10.2",
-    "serve": "6.4.9"
+    "prettier": "1.13.0",
+    "serve": "7.0.1"
   }
 }
