@@ -23,7 +23,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "prettier --write **.*{css,js,json,md}"
+      "pre-commit": "prettier --write **.*{css,html,js,json,md}"
     }
   }
 }

@@ -1,39 +1,71 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>
-      uPortal - Contented UI
-    </title>
+    <title>uPortal - Contented UI</title>
     <!-- dependencies from NPM -->
-    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../node_modules/slick-carousel/slick/slick.css"/>
-    <link rel="stylesheet" href="../../node_modules/slick-carousel/slick/slick-theme.css"/>
+    <link
+      rel="stylesheet"
+      href="../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../node_modules/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../node_modules/slick-carousel/slick/slick-theme.css"
+    />
     <script defer src="../../node_modules/jquery/dist/jquery.min.js"></script>
-    <script defer src="../../node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script defer src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script defer src="../../node_modules/slick-carousel/slick/slick.min.js"></script>
+    <script
+      defer
+      src="../../node_modules/popper.js/dist/umd/popper.min.js"
+    ></script>
+    <script
+      defer
+      src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"
+    ></script>
+    <script
+      defer
+      src="../../node_modules/slick-carousel/slick/slick.min.js"
+    ></script>
 
     <!-- dependencies only availible through cdn -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
+    />
 
     <!-- custom code for UI -->
-    <link rel="stylesheet" href="../../css/contented.css"/>
+    <link rel="stylesheet" href="../../css/contented.css" />
     <script defer src="../../js/contented.js"></script>
   </head>
   <body>
     <header>
       <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">
-          uPortal
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#"> uPortal </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <form class="form-inline mx-auto">
             <div class="input-group">
-              <input type="search" class="form-control" placeholder="Search for...">
+              <input
+                type="search"
+                class="form-control"
+                placeholder="Search for..."
+              />
               <span class="input-group-append">
                 <button class="btn btn-light" type="submit">
                   <i class="fas fa-search" title="search"></i>
@@ -42,23 +74,30 @@
             </div>
           </form>
           <span class="badge badge-danger mr-2">
-            <i class="fas fa-bell"></i>
-            10
+            <i class="fas fa-bell"></i> 10
           </span>
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Steven Student&nbsp;
-                <i class="fas fa-user"></i>
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Steven Student&nbsp; <i class="fas fa-user"></i>
               </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="navbarDropdown"
+              >
                 <a class="dropdown-item" href="#">
-                  <i class="fas fa-cog"></i>
-                  Settings
+                  <i class="fas fa-cog"></i> Settings
                 </a>
                 <a class="dropdown-item" href="#">
-                  <i class="fas fa-sign-out-alt"></i>
-                  Sign Out
+                  <i class="fas fa-sign-out-alt"></i> Sign Out
                 </a>
               </div>
             </li>
@@ -70,129 +109,72 @@
       <section class="up-hero container-fluid row">
         <section class="col up-hero-portlet">
           <div class="up-timeline">
-            <div class="up-timeline-header h4">
-              Today's Schedule
-            </div>
+            <div class="up-timeline-header h4">Today's Schedule</div>
             <div class="up-timeline-item">
               <p>
-                <em class="h5">
-                  9:00 am
-                </em>
-                &nbsp;
-                <span class="h3">
-                  Campus Shuttle
-                </span>
+                <em class="h5"> 9:00 am </em> &nbsp;
+                <span class="h3"> Campus Shuttle </span>
               </p>
               <p>
                 Campus Housing
-                <i class="fas fa-long-arrow-alt-right"></i>
-                Science Center
+                <i class="fas fa-long-arrow-alt-right"></i> Science Center
               </p>
             </div>
             <div class="up-timeline-item">
               <p>
-                <em class="h5">
-                  9:30 am
-                </em>
-                &nbsp;
-                <span class="h3">
-                  Chemistry Lab
-                </span>
+                <em class="h5"> 9:30 am </em> &nbsp;
+                <span class="h3"> Chemistry Lab </span>
               </p>
               <p>
-                Science Center 212
-                <br>
+                Science Center 212 <br />
                 Bring lab coat, goggles, and gloves.
               </p>
             </div>
             <div class="up-timeline-item">
               <p>
-                <em class="h5">
-                  11:00 am
-                </em>
-                &nbsp;
-                <span class="h3">
-                  Lunch
-                </span>
+                <em class="h5"> 11:00 am </em> &nbsp;
+                <span class="h3"> Lunch </span>
               </p>
               <p>
-                Campus Dining Center
-                <br>
+                Campus Dining Center <br />
                 Daily Special: Sirloin Steak Burger
               </p>
             </div>
             <div class="up-timeline-item">
               <p>
-                <em class="h5">
-                  1:00 pm
-                </em>
-                &nbsp;
-                <span class="h3">
-                  Literature Lecture
-                </span>
+                <em class="h5"> 1:00 pm </em> &nbsp;
+                <span class="h3"> Literature Lecture </span>
               </p>
               <p>
-                Liberal Arts Center 135
-                <br>
+                Liberal Arts Center 135 <br />
                 Read Chapters 23-27 before lecture
               </p>
             </div>
-            <div class="up-timeline-footer">
-              <a href="#">
-                show more
-              </a>
-            </div>
+            <div class="up-timeline-footer"><a href="#"> show more </a></div>
           </div>
         </section>
         <section class="col up-hero-portlet d-none d-md-block">
-          <h2 class="h4 up-task--header">
-            My Tasks
-          </h2>
+          <h2 class="h4 up-task--header">My Tasks</h2>
           <ul class="up-task--list">
             <li class="up-task--item up-over-due">
-              <strong>
-                Return Library Book
-              </strong>
-              <br>
-              <em>
-                Due Yesterday
-              </em>
+              <strong> Return Library Book </strong> <br />
+              <em> Due Yesterday </em>
             </li>
             <li class="up-task--item up-in-progress">
-              <strong>
-                Statistics Assignment
-              </strong>
-              <br>
-              <em>
-                Due 3pm today
-              </em>
+              <strong> Statistics Assignment </strong> <br />
+              <em> Due 3pm today </em>
             </li>
             <li class="up-task--item up-todo">
-              <strong>
-                Media Assignment
-              </strong>
-              <br>
-              <em>
-                Due Friday
-              </em>
+              <strong> Media Assignment </strong> <br />
+              <em> Due Friday </em>
             </li>
             <li class="up-task--item up-todo">
-              <strong>
-                English Paper
-              </strong>
-              <br>
-              <em>
-                Due next Thursday
-              </em>
+              <strong> English Paper </strong> <br />
+              <em> Due next Thursday </em>
             </li>
             <li class="up-task--item up-done">
-              <strong>
-                Chemistry Lab Analysis
-              </strong>
-              <br>
-              <em>
-                Due today at 9:30am
-              </em>
+              <strong> Chemistry Lab Analysis </strong> <br />
+              <em> Due today at 9:30am </em>
             </li>
           </ul>
         </section>
@@ -202,14 +184,10 @@
               <i class="fas fa-sun fa-7x fa-spin up-spin-slow"></i>
             </section>
             <section class="col">
-              <p class="h2">
-                49˚&nbsp;Clear.
-              </p>
+              <p class="h2">49˚&nbsp;Clear.</p>
               <p class="lead">
-                Feels Like:&nbsp;50˚
-                <br>
-                Low:&nbsp;38˚
-                <br>
+                Feels Like:&nbsp;50˚ <br />
+                Low:&nbsp;38˚ <br />
                 High:&nbsp;57˚
               </p>
             </section>
@@ -219,13 +197,22 @@
             </p>
             <div class="w-100"></div>
             <div class="progress" style="width: 100%">
-              <div class="progress-bar" style="width: 20%; background-color: azure; color: black;">
+              <div
+                class="progress-bar"
+                style="width: 20%; background-color: azure; color: black;"
+              >
                 Clear
               </div>
-              <div class="progress-bar" style="width: 55%; background-color: darkgray;">
+              <div
+                class="progress-bar"
+                style="width: 55%; background-color: darkgray;"
+              >
                 Partly Cloudy
               </div>
-              <div class="progress-bar" style="width: 25%; background-color: gray;">
+              <div
+                class="progress-bar"
+                style="width: 25%; background-color: gray;"
+              >
                 Overcast
               </div>
             </div>
@@ -246,122 +233,119 @@
             </div>
             <div class="up-weather-labels">
               <div class="up-weather-label">
-                <strong>
-                  Now
-                </strong>
-                <br>
+                <strong> Now </strong> <br />
                 49°
               </div>
               <div class="up-weather-label">
-                <strong>
-                  9am
-                </strong>
-                <br>
+                <strong> 9am </strong> <br />
                 49°
               </div>
               <div class="up-weather-label">
-                <strong>
-                  11am
-                </strong>
-                <br>
+                <strong> 11am </strong> <br />
                 55°
               </div>
               <div class="up-weather-label">
-                <strong>
-                  1pm
-                </strong>
-                <br>
+                <strong> 1pm </strong> <br />
                 56°
               </div>
               <div class="up-weather-label">
-                <strong>
-                  3pm
-                </strong>
-                <br>
+                <strong> 3pm </strong> <br />
                 57°
               </div>
               <div class="up-weather-label">
-                <strong>
-                  5pm
-                </strong>
-                <br>
+                <strong> 5pm </strong> <br />
                 56°
               </div>
             </div>
             <div class="up-weather-hilos">
               <div class="row">
                 <div class="col-4">
-                  <i class="fas fa-cloud" style="color: #616161;"></i>
-                  Today
+                  <i class="fas fa-cloud" style="color: #616161;"></i> Today
                 </div>
                 <div class="col-8 up-weather-hilo progress">
                   <div style="width: 5%;"></div>
                   38˚&nbsp;
-                  <div class="progress-bar up-weather-hilo--progress" style="width: 48%"></div>
+                  <div
+                    class="progress-bar up-weather-hilo--progress"
+                    style="width: 48%"
+                  ></div>
                   &nbsp;58˚
                 </div>
               </div>
               <div class="row">
                 <div class="col-4">
-                  <i class="fas fa-tint" style="color: #1565C0;"></i>
-                  &nbsp;
+                  <i class="fas fa-tint" style="color: #1565C0;"></i> &nbsp;
                   Tomorrow
                 </div>
                 <div class="col-8 up-weather-hilo progress">
                   <div style="width: 8%;"></div>
                   40˚&nbsp;
-                  <div class="progress-bar up-weather-hilo--progress" style="width: 50%"></div>
+                  <div
+                    class="progress-bar up-weather-hilo--progress"
+                    style="width: 50%"
+                  ></div>
                   &nbsp;59˚
                 </div>
               </div>
               <div class="row">
                 <div class="col-4">
-                  <i class="fas fa-sun" style="color: #fbc02d;"></i>
-                  &nbsp;
+                  <i class="fas fa-sun" style="color: #fbc02d;"></i> &nbsp;
                   Wednesday
                 </div>
                 <div class="col-8 up-weather-hilo progress">
                   <div style="width: 15%;"></div>
                   45˚&nbsp;
-                  <div class="progress-bar up-weather-hilo--progress" style="width: 25%"></div>
+                  <div
+                    class="progress-bar up-weather-hilo--progress"
+                    style="width: 25%"
+                  ></div>
                   &nbsp;50˚
                 </div>
               </div>
               <div class="row">
                 <div class="col-4">
-                  <i class="fas fa-sun" style="color: #fbc02d;"></i>
-                  &nbsp;
+                  <i class="fas fa-sun" style="color: #fbc02d;"></i> &nbsp;
                   Thursday
                 </div>
                 <div class="col-8 up-weather-hilo progress">
                   <div style="width: 18%;"></div>
                   48˚&nbsp;
-                  <div class="progress-bar up-weather-hilo--progress" style="width: 80%"></div>
+                  <div
+                    class="progress-bar up-weather-hilo--progress"
+                    style="width: 80%"
+                  ></div>
                   &nbsp;63˚
                 </div>
               </div>
               <div class="row">
                 <div class="col-4">
-                  <i class="fas fa-cloud" style="color: #616161;"></i>
-                  Friday
+                  <i class="fas fa-cloud" style="color: #616161;"></i> Friday
                 </div>
                 <div class="col-8 up-weather-hilo progress">
                   <div style="width: 8%;"></div>
                   40˚&nbsp;
-                  <div class="progress-bar up-weather-hilo--progress" style="width: 50%"></div>
+                  <div
+                    class="progress-bar up-weather-hilo--progress"
+                    style="width: 50%"
+                  ></div>
                   &nbsp;59˚
                 </div>
               </div>
               <div class="row">
                 <div class="col-4">
-                  <i class="fas fa-snowflake" style="color: #fff; text-shadow: 0 0 1px #000;"></i>
-                  &nbsp;
-                  Saturday
+                  <i
+                    class="fas fa-snowflake"
+                    style="color: #fff; text-shadow: 0 0 1px #000;"
+                  ></i>
+                  &nbsp; Saturday
                 </div>
                 <div class="col-8 up-weather-hilo progress">
                   <div style="width: 0%;"></div>
                   32˚&nbsp;
-                  <div class="progress-bar up-weather-hilo--progress" style="width: 20%"></div>
+                  <div
+                    class="progress-bar up-weather-hilo--progress"
+                    style="width: 20%"
+                  ></div>
                   &nbsp;45˚
                 </div>
               </div>
@@ -369,494 +353,412 @@
           </section>
         </section>
       </section>
-      </section>
       <div class="container-fluid">
         <section class="up-content-row">
-          <h2>
-            Favorites
-          </h2>
+          <h2>Favorites</h2>
           <section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1475608980029-de8304bf6f6e?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1475608980029-de8304bf6f6e?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Study Sessions
-                  </h3>
-                  <strong>
-                    Next session 6pm tonight
-                  </strong>
+                  <h3>Study Sessions</h3>
+                  <strong> Next session 6pm tonight </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1504817343863-5092a923803e?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1504817343863-5092a923803e?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Study Abroad
-                  </h3>
-                  <strong>
-                    Summer Registration Open
-                  </strong>
+                  <h3>Study Abroad</h3>
+                  <strong> Summer Registration Open </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1473624566182-509e437512f4?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1473624566182-509e437512f4?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Graduation
-                  </h3>
-                  <strong>
-                    Register by March 1
-                  </strong>
+                  <h3>Graduation</h3>
+                  <strong> Register by March 1 </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1496229133771-d8758d6b9a38?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1496229133771-d8758d6b9a38?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Exam Schedule
-                  </h3>
-                  <strong>
-                    Spring Term
-                  </strong>
+                  <h3>Exam Schedule</h3>
+                  <strong> Spring Term </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1471017300175-69e15ba9466e?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1471017300175-69e15ba9466e?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Campus Coffee
-                  </h3>
-                  <strong>
-                    Daily Special: Café bombón
-                  </strong>
+                  <h3>Campus Coffee</h3>
+                  <strong> Daily Special: Café bombón </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1484494789010-20fc1a011197?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1484494789010-20fc1a011197?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Live Music
-                  </h3>
-                  <strong>
-                    This Thursday 6pm
-                  </strong>
+                  <h3>Live Music</h3>
+                  <strong> This Thursday 6pm </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Campus Dining
-                  </h3>
-                  <strong>
-                    Daily Special: Sirloin Steak Burger
-                  </strong>
+                  <h3>Campus Dining</h3>
+                  <strong> Daily Special: Sirloin Steak Burger </strong>
                 </div>
               </section>
             </section>
           </section>
         </section>
         <section class="up-content-row">
-          <h2>
-            Recommended
-          </h2>
+          <h2>Recommended</h2>
           <section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Summer Registration
-                  </h3>
-                  <strong>
-                    Opens April 4 at 6am
-                  </strong>
+                  <h3>Summer Registration</h3>
+                  <strong> Opens April 4 at 6am </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1506521781263-d8422e82f27a?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1506521781263-d8422e82f27a?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Parking Passes
-                  </h3>
-                  <strong>
-                    Fall and Summer passes availible
-                  </strong>
+                  <h3>Parking Passes</h3>
+                  <strong> Fall and Summer passes availible </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1507473707539-69dc878df4fd?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1507473707539-69dc878df4fd?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Sports Outing
-                  </h3>
-                  <strong>
-                    Leaves next Friday 4pm
-                  </strong>
+                  <h3>Sports Outing</h3>
+                  <strong> Leaves next Friday 4pm </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1506377872008-6645d9d29ef7?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1506377872008-6645d9d29ef7?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Library Hours
-                  </h3>
-                  <strong>
-                    Open until 11pm during exams
-                  </strong>
+                  <h3>Library Hours</h3>
+                  <strong> Open until 11pm during exams </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1502240868472-18259bc0f863?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1502240868472-18259bc0f863?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Record Fair
-                  </h3>
-                  <strong>
-                    This Wednesday 11am to 3pm
-                  </strong>
+                  <h3>Record Fair</h3>
+                  <strong> This Wednesday 11am to 3pm </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1485095329183-d0797cdc5676?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1485095329183-d0797cdc5676?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Student Film Festival
-                  </h3>
-                  <strong>
-                    Showings Wednesday and Thursday
-                  </strong>
+                  <h3>Student Film Festival</h3>
+                  <strong> Showings Wednesday and Thursday </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1458639817867-2c9d4c5dcad4?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1458639817867-2c9d4c5dcad4?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Student Orchestra
-                  </h3>
-                  <strong>
-                    Performing at the Orpheum this May
-                  </strong>
+                  <h3>Student Orchestra</h3>
+                  <strong> Performing at the Orpheum this May </strong>
                 </div>
               </section>
             </section>
           </section>
         </section>
         <section class="up-content-row">
-          <h2>
-            Courses
-          </h2>
+          <h2>Courses</h2>
           <section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1478744919174-118dbd24973e?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1478744919174-118dbd24973e?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Chem Lab Relocated
-                  </h3>
-                  <strong>
-                    Lab will be in Science Center 212
-                  </strong>
+                  <h3>Chem Lab Relocated</h3>
+                  <strong> Lab will be in Science Center 212 </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Eng Paper Extension
-                  </h3>
-                  <strong>
-                    Due date moved to next Thursday
-                  </strong>
+                  <h3>Eng Paper Extension</h3>
+                  <strong> Due date moved to next Thursday </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1493970866116-fe0cad1a5727?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1493970866116-fe0cad1a5727?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Stats Assignment Due
-                  </h3>
-                  <strong>
-                    Due by end of class, 3pm today
-                  </strong>
+                  <h3>Stats Assignment Due</h3>
+                  <strong> Due by end of class, 3pm today </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1507120410856-1f35574c3b45?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1507120410856-1f35574c3b45?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Mediation lowers stress
-                  </h3>
-                  <strong>
-                    Take a minute to breathe
-                  </strong>
+                  <h3>Mediation lowers stress</h3>
+                  <strong> Take a minute to breathe </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1472393365320-db77a5abbecc?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1472393365320-db77a5abbecc?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Media Assignment
-                  </h3>
-                  <strong>
-                    Capture an art photo of food, due Friday
-                  </strong>
+                  <h3>Media Assignment</h3>
+                  <strong> Capture an art photo of food, due Friday </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1507207611509-ec012433ff52?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1507207611509-ec012433ff52?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Stats Office Hours
-                  </h3>
-                  <strong>
-                    Today 2-3pm in the Science Center
-                  </strong>
+                  <h3>Stats Office Hours</h3>
+                  <strong> Today 2-3pm in the Science Center </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1471890701797-59336a877de4?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1471890701797-59336a877de4?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Print Lab Hours
-                  </h3>
-                  <strong>
-                    Lab will be closing at 4pm
-                  </strong>
-                </div>
-              </section>
-            </section>
-          </section>
-        </section>
-        </section>
-        <section class="up-content-row">
-          <h2>
-            Study Abroad
-          </h2>
-          <section>
-            <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1497262693247-aa258f96c4f5?crop=entropy&fit=crop&w=800&h=600">
-              <section class="up-portlet--tagline">
-                <div class="up-portlet--tagline--background">
-                  <h3>
-                    Santorini, Greece
-                  </h3>
-                  <strong>
-                    Summer Session
-                  </strong>
-                </div>
-              </section>
-            </section>
-            <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1491884800140-3cfaef5d5549?crop=entropy&fit=crop&w=800&h=600">
-              <section class="up-portlet--tagline">
-                <div class="up-portlet--tagline--background">
-                  <h3>
-                    Osaka, Japan
-                  </h3>
-                  <strong>
-                    Summer Session
-                  </strong>
-                </div>
-              </section>
-            </section>
-            <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1502726488490-f99c74217a37?crop=entropy&fit=crop&w=800&h=600">
-              <section class="up-portlet--tagline">
-                <div class="up-portlet--tagline--background">
-                  <h3>
-                    Venice, Italy
-                  </h3>
-                  <strong>
-                    Summer Session
-                  </strong>
-                </div>
-              </section>
-            </section>
-            <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1508268110848-87c386a41c35?crop=entropy&fit=crop&w=800&h=600">
-              <section class="up-portlet--tagline">
-                <div class="up-portlet--tagline--background">
-                  <h3>
-                    Vancouver, Canada
-                  </h3>
-                  <strong>
-                    Summer Session
-                  </strong>
-                </div>
-              </section>
-            </section>
-            <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1493375366763-3ed5e0e6d8ec?crop=entropy&fit=crop&w=800&h=600">
-              <section class="up-portlet--tagline">
-                <div class="up-portlet--tagline--background">
-                  <h3>
-                    Sydney, Australia
-                  </h3>
-                  <strong>
-                    Summer Session
-                  </strong>
-                </div>
-              </section>
-            </section>
-            <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&fit=crop&w=800&h=600">
-              <section class="up-portlet--tagline">
-                <div class="up-portlet--tagline--background">
-                  <h3>
-                    Rio de Janeiro, Brazil
-                  </h3>
-                  <strong>
-                    Summer Session
-                  </strong>
-                </div>
-              </section>
-            </section>
-            <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1507904139316-3c7422a97a49?crop=entropy&fit=crop&w=800&h=600">
-              <section class="up-portlet--tagline">
-                <div class="up-portlet--tagline--background">
-                  <h3>
-                    Doha, Qatar
-                  </h3>
-                  <strong>
-                    Summer Session
-                  </strong>
+                  <h3>Print Lab Hours</h3>
+                  <strong> Lab will be closing at 4pm </strong>
                 </div>
               </section>
             </section>
           </section>
         </section>
         <section class="up-content-row">
-          <h2>
-            Athletics
-          </h2>
+          <h2>Study Abroad</h2>
           <section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1508057187925-17094f679b10?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1497262693247-aa258f96c4f5?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Intermural Rugby
-                  </h3>
-                  <strong>
-                    Next Thursday, 4pm
-                  </strong>
+                  <h3>Santorini, Greece</h3>
+                  <strong> Summer Session </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1517637633369-e4cc28755e01?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1491884800140-3cfaef5d5549?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Yoga Lessons
-                  </h3>
-                  <strong>
-                    This Saturday 2pm
-                  </strong>
+                  <h3>Osaka, Japan</h3>
+                  <strong> Summer Session </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1494778696781-8f23fd5553c4?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1502726488490-f99c74217a37?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Intermural Soccer
-                  </h3>
-                  <strong>
-                    Next Thursday, 4pm
-                  </strong>
+                  <h3>Venice, Italy</h3>
+                  <strong> Summer Session </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1502904550040-7534597429ae?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1508268110848-87c386a41c35?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Track Meet
-                  </h3>
-                  <strong>
-                    Next Monday, 8am
-                  </strong>
+                  <h3>Vancouver, Canada</h3>
+                  <strong> Summer Session </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1510278403173-f32fcab3da13?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1493375366763-3ed5e0e6d8ec?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Swim Meet
-                  </h3>
-                  <strong>
-                    Next Tuesday, 8am
-                  </strong>
+                  <h3>Sydney, Australia</h3>
+                  <strong> Summer Session </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1487491491904-a48f73cd4078?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1483729558449-99ef09a8c325?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Fencing Lessons
-                  </h3>
-                  <strong>
-                    Next Tuesday, 10am
-                  </strong>
+                  <h3>Rio de Janeiro, Brazil</h3>
+                  <strong> Summer Session </strong>
                 </div>
               </section>
             </section>
             <section class="up-portlet">
-              <img src="https://images.unsplash.com/photo-1482632322416-218f4e111f73?crop=entropy&fit=crop&w=800&h=600">
+              <img
+                src="https://images.unsplash.com/photo-1507904139316-3c7422a97a49?crop=entropy&fit=crop&w=800&h=600"
+              />
               <section class="up-portlet--tagline">
                 <div class="up-portlet--tagline--background">
-                  <h3>
-                    Intermural Softball
-                  </h3>
-                  <strong>
-                    Next Wednesday, 6pm
-                  </strong>
+                  <h3>Doha, Qatar</h3>
+                  <strong> Summer Session </strong>
+                </div>
+              </section>
+            </section>
+          </section>
+        </section>
+        <section class="up-content-row">
+          <h2>Athletics</h2>
+          <section>
+            <section class="up-portlet">
+              <img
+                src="https://images.unsplash.com/photo-1508057187925-17094f679b10?crop=entropy&fit=crop&w=800&h=600"
+              />
+              <section class="up-portlet--tagline">
+                <div class="up-portlet--tagline--background">
+                  <h3>Intermural Rugby</h3>
+                  <strong> Next Thursday, 4pm </strong>
+                </div>
+              </section>
+            </section>
+            <section class="up-portlet">
+              <img
+                src="https://images.unsplash.com/photo-1517637633369-e4cc28755e01?crop=entropy&fit=crop&w=800&h=600"
+              />
+              <section class="up-portlet--tagline">
+                <div class="up-portlet--tagline--background">
+                  <h3>Yoga Lessons</h3>
+                  <strong> This Saturday 2pm </strong>
+                </div>
+              </section>
+            </section>
+            <section class="up-portlet">
+              <img
+                src="https://images.unsplash.com/photo-1494778696781-8f23fd5553c4?crop=entropy&fit=crop&w=800&h=600"
+              />
+              <section class="up-portlet--tagline">
+                <div class="up-portlet--tagline--background">
+                  <h3>Intermural Soccer</h3>
+                  <strong> Next Thursday, 4pm </strong>
+                </div>
+              </section>
+            </section>
+            <section class="up-portlet">
+              <img
+                src="https://images.unsplash.com/photo-1502904550040-7534597429ae?crop=entropy&fit=crop&w=800&h=600"
+              />
+              <section class="up-portlet--tagline">
+                <div class="up-portlet--tagline--background">
+                  <h3>Track Meet</h3>
+                  <strong> Next Monday, 8am </strong>
+                </div>
+              </section>
+            </section>
+            <section class="up-portlet">
+              <img
+                src="https://images.unsplash.com/photo-1510278403173-f32fcab3da13?crop=entropy&fit=crop&w=800&h=600"
+              />
+              <section class="up-portlet--tagline">
+                <div class="up-portlet--tagline--background">
+                  <h3>Swim Meet</h3>
+                  <strong> Next Tuesday, 8am </strong>
+                </div>
+              </section>
+            </section>
+            <section class="up-portlet">
+              <img
+                src="https://images.unsplash.com/photo-1487491491904-a48f73cd4078?crop=entropy&fit=crop&w=800&h=600"
+              />
+              <section class="up-portlet--tagline">
+                <div class="up-portlet--tagline--background">
+                  <h3>Fencing Lessons</h3>
+                  <strong> Next Tuesday, 10am </strong>
+                </div>
+              </section>
+            </section>
+            <section class="up-portlet">
+              <img
+                src="https://images.unsplash.com/photo-1482632322416-218f4e111f73?crop=entropy&fit=crop&w=800&h=600"
+              />
+              <section class="up-portlet--tagline">
+                <div class="up-portlet--tagline--background">
+                  <h3>Intermural Softball</h3>
+                  <strong> Next Wednesday, 6pm </strong>
                 </div>
               </section>
             </section>
@@ -869,15 +771,21 @@
         <div class="navbar-collapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="https://github.com/ChristianMurphy/contented-ui" target="_blank">
-                <i class="fab fa-github"></i>
-                Source
+              <a
+                class="nav-link"
+                href="https://github.com/ChristianMurphy/contented-ui"
+                target="_blank"
+              >
+                <i class="fab fa-github"></i> Source
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://www.unicon.net/" target="_blank">
-                <i class="fas fa-comment-alt"></i>
-                Contact Us
+              <a
+                class="nav-link"
+                href="https://www.unicon.net/"
+                target="_blank"
+              >
+                <i class="fas fa-comment-alt"></i> Contact Us
               </a>
             </li>
           </ul>
